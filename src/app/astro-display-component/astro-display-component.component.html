@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div class="row">
+      <div class="col-md-12"><h3 class="titleText">*Welcome to Astro*</h3></div>
+    </div>
+    <hr />
+
+    <div *ngFor="let i of planetsData" class="row">
+      <div class="col-md-6">
+        <img class="imgStyle" src="{{ i.imgSrc.img }}" />
+      </div>
+      <div class="col-md-6">
+        <p class="subTitle">{{ i.description }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+</div>

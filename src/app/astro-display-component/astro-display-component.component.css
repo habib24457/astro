@@ -1,0 +1,14 @@
+.titleText {
+  color: indigo;
+  text-align: center;
+}
+
+.subTitle {
+  color: black;
+}
+
+.imgStyle {
+  height: 250px;
+  width: 250px;
+  padding: 2px;
+}
